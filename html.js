@@ -43,7 +43,7 @@ module.exports = React.createClass({
             rel="author"
             href="https://plus.google.com/102344399563875211569"
           />
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB10DGDrJaB7IauMg99tM97DUH9QC4rcO8" />
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0rHKRn3_r5on5TG_1D7cFt9qIIVePrfk" />
           {css}
         </head>
         <body className="landing-page">
