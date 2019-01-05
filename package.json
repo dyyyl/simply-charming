@@ -1,0 +1,46 @@
+{
+  "name": "simply-charming",
+  "description": "Simple & Charming ✨",
+  "version": "1.0.0",
+  "author": "Dyl 🦊 <d@dyyyl.rocks>",
+  "bugs": {
+    "url": "https://github.com/dyyyl/simply-charming/issues"
+  },
+  "dependencies": {
+    "fs-extra-promise": "^0.4.1",
+    "gatsby": "^0.12.6",
+    "lodash": "^4.15.0",
+    "moment": "^2.15.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-helmet": "^3.1.0",
+    "react-infinite": "^0.10.0",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.14.0",
+    "safe-access": "^0.1.0",
+    "sitemap": "^1.8.2",
+    "typography": "^0.14.0",
+    "typography-theme-wordpress-2016": "^0.14.0",
+    "underscore.string": "^3.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  },
+  "homepage": "https://dyyyl.rocks/",
+  "keywords": [
+    "dyyyl"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyyyl/simply-charming.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  }
+}
